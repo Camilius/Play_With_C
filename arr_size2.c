@@ -43,7 +43,7 @@ void printArrayC(char* arr){
 }
 
 void printArrayC2(char* arr){
-  printf("%s \n",arr);
+  printf("%s \n",arr+sizeof(int);
 }
 
 int main()
